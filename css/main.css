@@ -26,6 +26,14 @@ header {
   background-color: #e2e2e2;
 }
 
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
 li {
   display: inline-block;
 }
@@ -38,4 +46,15 @@ a {
 a:hover {
   background-color: #0074d9;
   color: #fff;
+}
+
+@media only screen (min-width: 36em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
 }
