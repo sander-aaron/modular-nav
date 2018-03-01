@@ -17,11 +17,18 @@ html {
   box-sizing: inherit;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+body{
+  margin: 0;
+}
+
+header {
+  background-color: #e2e2e2;
 }
 
 li {
   display: inline-block;
+}
+
+li:hover {
+  background-color: #0074d9;
 }
