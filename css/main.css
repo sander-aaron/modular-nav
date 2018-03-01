@@ -11,13 +11,14 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font: normal 100%/1.3 sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -29,6 +30,12 @@ li {
   display: inline-block;
 }
 
-li:hover {
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+a:hover {
   background-color: #0074d9;
+  color: #fff;
 }
